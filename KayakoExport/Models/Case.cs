@@ -1,5 +1,6 @@
-﻿using Newtonsoft.Json;
-using System;
+﻿using System;
+
+using Newtonsoft.Json;
 
 namespace KayakoExport.Models
 {
@@ -41,11 +42,11 @@ namespace KayakoExport.Models
         [JsonProperty(PropertyName = "brand")]
         public Brand Brand { get; set; }
 
+        [JsonProperty(PropertyName = "status")]
+        public Status Status { get; set; }
+
         [JsonProperty(PropertyName = "priority")]
         public Priority Priority { get; set; }
-
-        [JsonProperty(PropertyName = "read_marker")]
-        public string ReadMarker { get; set; }
 
         [JsonProperty(PropertyName = "state")]
         public string State { get; set; }

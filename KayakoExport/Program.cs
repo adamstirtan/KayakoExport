@@ -9,9 +9,7 @@ namespace KayakoExport
 
         private static async Task MainAsync(string[] args)
         {
-            var exporter = new Exporter();
-
-            await exporter.StartAsync();
+            await new Exporter().StartAsync();
         }
     }
 }

@@ -2,7 +2,7 @@
 
 namespace KayakoExport.Models
 {
-    internal class Priority
+    internal class LastReplier
     {
         [JsonProperty(PropertyName = "id")]
         public long Id { get; set; }
