@@ -5,9 +5,9 @@ namespace KayakoExport.Models
     internal class Requester
     {
         [JsonProperty(PropertyName = "id")]
-        public string Id { get; set; }
+        public string RequesterId { get; set; }
 
         [JsonProperty(PropertyName = "resource_type")]
-        public string ResourceType { get; set; }
+        public string RequesterType { get; set; }
     }
 }

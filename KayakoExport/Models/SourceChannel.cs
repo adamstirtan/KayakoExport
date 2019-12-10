@@ -5,9 +5,9 @@ namespace KayakoExport.Models
     internal class SourceChannel
     {
         [JsonProperty(PropertyName = "id")]
-        public string Id { get; set; }
+        public string SourceChannelId { get; set; }
 
         [JsonProperty(PropertyName = "resource_type")]
-        public string Resource_Type { get; set; }
+        public string SourceChannelType { get; set; }
     }
 }

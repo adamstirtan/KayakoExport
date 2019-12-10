@@ -5,9 +5,9 @@ namespace KayakoExport.Models
     internal class LastAssignedBy
     {
         [JsonProperty(PropertyName = "id")]
-        public string Id { get; set; }
+        public string LastAssignedById { get; set; }
 
         [JsonProperty(PropertyName = "resource_type")]
-        public string ResourceType { get; set; }
+        public string LastAssignedByType { get; set; }
     }
 }

@@ -5,9 +5,9 @@ namespace KayakoExport.Models
     internal class Brand
     {
         [JsonProperty(PropertyName = "id")]
-        public string Id { get; set; }
+        public string BrandId { get; set; }
 
         [JsonProperty(PropertyName = "resource_type")]
-        public string ResourceType { get; set; }
+        public string BrandType { get; set; }
     }
 }

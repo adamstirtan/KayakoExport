@@ -5,9 +5,9 @@ namespace KayakoExport.Models
     internal class Identity
     {
         [JsonProperty(PropertyName = "id")]
-        public string Id { get; set; }
+        public string IdentityId { get; set; }
 
         [JsonProperty(PropertyName = "resource_type")]
-        public string ResourceType { get; set; }
+        public string IdentityType { get; set; }
     }
 }

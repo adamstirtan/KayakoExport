@@ -5,9 +5,9 @@ namespace KayakoExport.Models
     internal class Priority
     {
         [JsonProperty(PropertyName = "id")]
-        public long Id { get; set; }
+        public long PriorityId { get; set; }
 
         [JsonProperty(PropertyName = "resource_type")]
-        public string ResourceType { get; set; }
+        public string PriorityType { get; set; }
     }
 }

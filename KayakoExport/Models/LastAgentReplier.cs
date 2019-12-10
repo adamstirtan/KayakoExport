@@ -5,9 +5,9 @@ namespace KayakoExport.Models
     internal class LastAgentReplier
     {
         [JsonProperty(PropertyName = "id")]
-        public long Id { get; set; }
+        public long LastAgentReplierId { get; set; }
 
         [JsonProperty(PropertyName = "resource_type")]
-        public string ResourceType { get; set; }
+        public string LastAgentReplierType { get; set; }
     }
 }

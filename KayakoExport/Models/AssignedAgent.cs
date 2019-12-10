@@ -5,9 +5,9 @@ namespace KayakoExport.Models
     internal class AssignedAgent
     {
         [JsonProperty(PropertyName = "id")]
-        public string Id { get; set; }
+        public string AssignedAgentId { get; set; }
 
         [JsonProperty(PropertyName = "resource_type")]
-        public string ResourceType { get; set; }
+        public string AssignedAgentType { get; set; }
     }
 }

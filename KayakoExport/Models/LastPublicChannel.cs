@@ -5,9 +5,9 @@ namespace KayakoExport.Models
     internal class LastPublicChannel
     {
         [JsonProperty(PropertyName = "id")]
-        public string Id { get; set; }
+        public string LastPublicChannelId { get; set; }
 
         [JsonProperty(PropertyName = "resource_type")]
-        public string ResourceType { get; set; }
+        public string LastPublicChannelType { get; set; }
     }
 }

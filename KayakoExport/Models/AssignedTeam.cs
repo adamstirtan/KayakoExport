@@ -5,9 +5,9 @@ namespace KayakoExport.Models
     internal class AssignedTeam
     {
         [JsonProperty(PropertyName = "id")]
-        public string Id { get; set; }
+        public string AssignedTeamId { get; set; }
 
         [JsonProperty(PropertyName = "resource_type")]
-        public string ResourceType { get; set; }
+        public string AssignedTeamType { get; set; }
     }
 }
