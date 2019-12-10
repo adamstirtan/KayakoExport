@@ -22,8 +22,8 @@ namespace KayakoExport
         private const string ConversationsUrl =
             "https://fernsoftware.kayako.com/api/v1/conversations.json";
 
-        private const string UserName = "emma.leary@fernsoftware.com";
-        private const string Password = "Hinamori2!";
+        private const string UserName = "";
+        private const string Password = "";
         private const int PageSize = 100;
 
         public async Task StartAsync()
@@ -46,7 +46,7 @@ namespace KayakoExport
 
                 Console.WriteLine("Downloading cases");
 
-                for (var i = 0; i < 2; i++, offset += PageSize)
+                for (var i = 0; i < totalPages; i++, offset += PageSize)
                 {
                     Console.Write(".");
 
@@ -70,7 +70,7 @@ namespace KayakoExport
 
                 Console.WriteLine("Downloading conversations");
 
-                for (var i = 0; i < 2; i++, offset += PageSize)
+                for (var i = 0; i < totalPages; i++, offset += PageSize)
                 {
                     Console.Write(".");
 
